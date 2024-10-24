@@ -1,17 +1,3 @@
-function sendEmail() {
-  const name = document.getElementById("name").value;
-  const email = document.getElementById("email").value;
-  const message = document.getElementById("message").value;
-
-  const subject = "New Contact Form Message";
-  const body = `Name: ${name}\nEmail: ${email}\nMessage:\n${message}`;
-
-  const mailtoLink = `mailto:justinedeclans@gmail.com?subject=${encodeURIComponent(
-    subject
-  )}&body=${encodeURIComponent(body)}`;
-  window.location.href = mailtoLink;
-}
-
 function subscriptionData() {
   const firstName = document.getElementById("firstname").value;
   const email = document.getElementById("email").value;
