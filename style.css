@@ -3,16 +3,7 @@ html {
 }
 
 body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
     background-color: #EBE2D3;
-}
-.content {
-    flex: 1 0 auto;
-}
-footer {
-    flex-shrink: 0;
 }
 
 .nav-link {
