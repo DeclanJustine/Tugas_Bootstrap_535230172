@@ -67,6 +67,14 @@
                                 <input type="tel" class="form-control" id="phone" placeholder="Phone Number" required>
                             </div>
                             <div class="mb-3">
+                                <label for="cardNumber" class="form-label">Card Number</label>
+                                <input type="text" class="form-control" id="cardNumber" placeholder="Card Number" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="cvv" class="form-label">CVV</label>
+                                <input type="text" class="form-control" id="cvv" placeholder="CVV" maxlength="3" required>
+                            </div>
+                            <div class="mb-3">
                                 <label for="address" class="form-label">Address</label>
                                 <input type="text" class="form-control" id="address" placeholder="Address" required>
                             </div>
@@ -74,11 +82,10 @@
                                 <label for="subscriptionType" class="form-label">Type of Subscription</label>
                                 <select class="form-select" id="subscriptionType" required>
                                     <option value="">Select Subscription Type</option>
-                                    <option value="free">Wellness Starter</option>
-                                    <option value="pro">Lifestyle Pro</option>
-                                    <option value="elite">Elite Wellness</option>
-                                    <option value="master">Mindful Mastery</option>
-                                    <option value="ultimate">Ultimate Lifestyle</option>
+                                    <option value="essential">Essential</option>
+                                    <option value="elite">Elite</option>
+                                    <option value="premium">Premium</option>
+                                    <option value="vip">VIP</option>
                                 </select>
                             </div>
                             <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#confirmationModal">Send</button>
